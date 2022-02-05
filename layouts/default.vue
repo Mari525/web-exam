@@ -37,10 +37,6 @@ export default {
   data: () => ({
     eventsCount: []
   }),
-  // async asyncData({ $axios }) {
-  // 	const eventsCount = await $axios.$get('https://demo-api.vsdev.space/api/elonus/left_widget')
-  // 	return { eventsCount }
-	// }
   async mounted() {
 		this.eventsCount = await this.$axios.$get('https://demo-api.vsdev.space/api/elonus/left_widget')
 	}
