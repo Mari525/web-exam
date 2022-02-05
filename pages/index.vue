@@ -1,7 +1,7 @@
 <template>
   <v-container class="d-flex">
-    <p>{{ indexContent.text }}</p>
-    <v-img :src="indexContent.image"></v-img>
+    <p class="mr-10 text-justify">{{ indexContent.text }}</p>
+    <v-img :src="indexContent.image" width="300"></v-img>
   </v-container>
 </template>
 
