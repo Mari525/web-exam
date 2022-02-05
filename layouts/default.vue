@@ -11,7 +11,7 @@
             <nuxt-link to="/about" class="white--text">О нас</nuxt-link>
           </v-btn>
           <v-btn outlined>
-            <nuxt-link to="/events" class="white--text">Главная</nuxt-link>
+            <nuxt-link to="/events" class="white--text">События</nuxt-link>
           </v-btn>
         </nav>
         <div class="mt-10 ml-5">
