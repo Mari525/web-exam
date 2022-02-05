@@ -5,10 +5,10 @@ target: 'static'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - exam',
-    title: 'exam',
+    titleTemplate: '%s - регистрация погодных событий на Марсе',
+    title: 'Илонус',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ru'
     },
     meta: [
       { charset: 'utf-8' },
